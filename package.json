@@ -1,0 +1,27 @@
+{
+  "name": "noderadio",
+  "version": "0.0.1",
+  "description": "icacast web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pg",
+  "homepage": "https://github.com/ang-st/noderadio",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/ang-st/noderadio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ang-st/noderadio/issues"
+  },
+  "keywords": ["libshout", "icecast", "stream", "radio", "express"],
+  "license": "MIT",
+  "dependencies": {
+    "ffi": "1.3.0",
+    "ref": "1.0.0",
+    "ref-array": "1.1.0",
+    "ref-struct": "1.0.0",
+    "nodeshout": "ang-st/nodeshout"
+  }
+}
